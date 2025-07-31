@@ -4,7 +4,7 @@ setlocal
 :: === CONFIGURATION ===
 set SCRIPT_NAME=app.py
 set EXE_NAME=PDFToExcel.exe
-set REMOTE_PATH=\\USLTCSBMPSVC01\Share\Pravin\PDFToExl
+set REMOTE_PATH=\\remote-server\path\to\deploy
 set PYINSTALLER_PATH=.\venv\Scripts\pyinstaller.exe
 
 :: === STEP 1: Build the EXE ===
